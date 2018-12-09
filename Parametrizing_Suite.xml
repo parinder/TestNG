@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login">
+<parameter name="user" value="username"></parameter>
+<parameter name="password" value="passwrd"></parameter>
+  <test thread-count="5" name="Fb-Insta">
+    <classes>
+      <class name="Parameterizing_TestNG.facebook_login_Test"/>
+      <class name="Parameterizing_TestNG.Insta_login_Test"/>
+    </classes>
+  </test> <!-- Fb-Insta -->
+</suite> <!-- Login -->

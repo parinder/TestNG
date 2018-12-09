@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login">
+  <test thread-count="5" name="Data_In_Properties_File">
+    <classes>
+      <class name="Global_Environment.Insta_login_Test"/>
+      <class name="Global_Environment.facebook_login_Test"/>
+    </classes>
+  </test> <!-- Data_In_Properties_File -->
+</suite> <!-- Login -->

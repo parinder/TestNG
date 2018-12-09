@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+	<test thread-count="5" name="All_Api_Test_Run_after_all_Others">
+		<classes>
+
+			<class name="Annotations_After_Before.Test_Home_Loan" />
+			<class name="Annotations_After_Before.Test_Personal_Loan" />
+			<class name="Annotations_After_Before.Test_Car_Loan" />
+
+		</classes>
+	</test> <!-- All_Api_Test_Run_after_all_Others -->
+</suite> <!-- Loan -->

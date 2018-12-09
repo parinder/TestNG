@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+  <test thread-count="5" name="Mobile_Test_All_Departments">
+  <groups>
+  <run>
+  <include name="MobileTestingOnly"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="Group_Functionality.Test_Personal_Loan"/>
+      <class name="Group_Functionality.Test_Car_Loan"/>
+      <class name="Group_Functionality.Test_Home_Loan"/>
+    </classes>
+  </test> <!-- Mobile_Test_All_Departments -->
+</suite> <!-- Loan -->

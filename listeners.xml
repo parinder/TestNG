@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login">
+	<listeners>
+		<listener
+			class-name="Listners_Interfaces.listner_Interface_Tests"></listener>
+	</listeners>
+	<test thread-count="5" name="Congo_Message_Test_Done">
+		<classes>
+			<class name="Listners_Interfaces.Insta_login_Test" />
+			<class name="Listners_Interfaces.facebook_login_Test" />
+		</classes>
+	</test> <!-- Congo_Message_Test_Done -->
+</suite> <!-- Login -->
